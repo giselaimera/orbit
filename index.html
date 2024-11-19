@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orbit - Wholesale Windows</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-            <img src="ORBIT.jpeg" alt="Orbit" class="logo">
+            <img src="images/ORBIT.jpeg" alt="Orbit" class="logo">
             <button class="menu-toggle" aria-label="Toggle navigation menu">&#9776;</button>
             <ul class="navbar-menu">
                 <li><a href="#gallery" class="nav-link">Products</a></li>
@@ -26,11 +27,15 @@
         <div class="hero-container">
             <div class="hero-text">
                 <h1>Transform Your Space with Our Premium Products!</h1>
-                <p>Unlock the perfect combination of style, durability, and energy efficiency with our top-quality products. Whether you're upgrading your home or tackling a big project, we're here to help you find the ideal solution that meets your exact needs. Don't wait – reach out now and bring your vision to life!</p>
+                <p>Unlock the perfect combination of style, durability, and energy efficiency with our top-quality products.
+                    Whether you're upgrading your home or tackling a big project, we're here to help you find the ideal solution
+                    that meets your exact needs. Don't wait – reach out now and bring your vision to life!</p>
                 <a href="#contact" class="cta-btn">Contact Us</a>
             </div>
             <div class="hero-image">
-                <img src="wholesale.jpg" alt="Hero Image">
+                <img src="images/wholesale-400.jpg" alt="Hero Image" srcset="images/wholesale-400.jpg 400w, 
+                             images/wholesale-800.jpg 800w, images/wholesale-1200.jpg 1200w" 
+                     sizes="(max-width: 600px) 400px, (max-width: 1024px) 800px, 1200px" loading="lazy">
             </div>
         </div>
     </section>
@@ -42,7 +47,6 @@
                 <h3>High-Quality Products</h3>
                 <p>We provide energy-efficient, durable windows that are built to last. Our products are designed to help reduce energy costs while enhancing the comfort and aesthetics of any property.</p>
             </div>
-            
             <div class="card">
                 <h3>Competitive Prices</h3>
                 <p>We offer wholesale prices without compromising on quality. Our goal is to provide exceptional value, ensuring that you get top-quality windows at affordable prices.</p>
@@ -56,14 +60,31 @@
 
     <section class="gallery" id="gallery">
         <h2>Our Product Gallery</h2>
-        <br>
         <div class="gallery-grid">
-            <img src="1.jpg" alt="Product 1">
-            <img src="2.jpg" alt="Product 2">
-            <img src="3.jpg" alt="Product 3">
+            <img 
+                src="images/1-1200.jpg" 
+                alt="Product 1" 
+                loading="lazy"
+                srcset="images/1-1200.jpg 1200w, images/1-800.jpg 800w, images/1-400.jpg 400w"
+                sizes="(max-width: 1200px) 33vw, (max-width: 768px) 50vw, 100vw"
+            >
+            <img 
+                src="images/2-1200.jpg" 
+                alt="Product 2" 
+                loading="lazy"
+                srcset="images/2-1200.jpg 1200w, images/2-800.jpg 800w, images/2-400.jpg 400w"
+                sizes="(max-width: 1200px) 33vw, (max-width: 768px) 50vw, 100vw"
+            >
+            <img 
+                src="images/3-1200.jpg" 
+                alt="Product 3" 
+                loading="lazy"
+                srcset="images/3-1200.jpg 1200w, images/3-800.jpg 800w, images/3-400.jpg 400w"
+                sizes="(max-width: 1200px) 33vw, (max-width: 768px) 50vw, 100vw"
+            >
         </div>
     </section>
-
+    
     <section class="find-us" id="find-us">
         <h2>Find Us</h2>
         <p>We're easy to locate! Visit us at our office or contact us for any questions.</p>
@@ -110,6 +131,5 @@
 
     <a href="#" class="scroll-to-top" id="scrollToTopBtn">&#8593;</a>
     <script src="script.js"></script>
-
 </body>
 </html>
