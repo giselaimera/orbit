@@ -165,7 +165,7 @@ header {
 
 .cta-btn {
   display: inline-block;
-  background-color: #669bbc; /* Blue for CTA button */
+  background-color: #9b0c18; /* Darker red for better contrast */
   color: #fdf0d5; /* Light text */
   padding: 12px 24px;
   border-radius: 5px;
