@@ -30,11 +30,6 @@ header {
   width: 100%; /* Ensure navbar spans full width */
 }
 
-.logo {
-  width: 250px; /* Adjust this based on how large you want the logo */
-  height: 150px;
-}
-
 /* Navigation Menu */
 .navbar-menu {
   list-style: none;
