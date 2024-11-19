@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit - Wholesale Windows</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/ORBIT.jpeg" alt="Orbit" class="logo">
+            <button class="menu-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+            <ul class="navbar-menu">
+                <li><a href="#gallery" class="nav-link">Products</a></li>
+                <li><a href="#services" class="nav-link">About Us</a></li>
+                <li><button class="quote-btn" id="find-us-btn">Find Us</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Transform Your Space with Our Premium Products!</h1>
+                <p>Unlock the perfect combination of style, durability, and energy efficiency with our top-quality products. Whether you're upgrading your home or tackling a big project, we're here to help you find the ideal solution that meets your exact needs. Don't wait – reach out now and bring your vision to life!</p>
+                <a href="#contact" class="cta-btn">Contact Us</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/wholesale.jpg" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Why Choose Orbit?</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>High-Quality Products</h3>
+                <p>We provide energy-efficient, durable windows that are built to last. Our products are designed to help reduce energy costs while enhancing the comfort and aesthetics of any property.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Competitive Prices</h3>
+                <p>We offer wholesale prices without compromising on quality. Our goal is to provide exceptional value, ensuring that you get top-quality windows at affordable prices.</p>
+            </div>
+            <div class="card">
+                <h3>Wide Selection</h3>
+                <p>With a variety of window styles and customization options, we ensure that you find the perfect fit for your project. Whether it's for residential or commercial properties, we have solutions that meet diverse needs and preferences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Our Product Gallery</h2>
+        <br>
+        <div class="gallery-grid">
+            <img src="images/1.jpg" alt="Product 1">
+            <img src="images/2.jpg" alt="Product 2">
+            <img src="images/3.jpg" alt="Product 3">
+        </div>
+    </section>
+
+    <section class="find-us" id="find-us">
+        <h2>Find Us</h2>
+        <p>We're easy to locate! Visit us at our office or contact us for any questions.</p>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.883697818326!2d-76.6337901!3d39.2455117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80383c86281f9%3A0x479ad5221af07474!2sOrbit%20Wholesale%20Windows!5e0!3m2!1sen!2s!4v1731965391331!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>If you have any questions, feel free to contact us!</p>
+        </div>
+
+        <form id="contact-form" action="https://formspree.io/f/mwpkqlre?redirect=http://127.0.0.1:5500" method="POST">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Orbit. All rights reserved.</p>
+            <ul class="socials">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-to-top" id="scrollToTopBtn">&#8593;</a>
+    <script src="script.js"></script>
+
+</body>
+</html>
